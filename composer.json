@@ -1,0 +1,9 @@
+{
+    "name": "backdev/mvc",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "libs/"
+        }
+    },
+    "require": {}
+}
