@@ -2,8 +2,11 @@
     "name": "backdev/mvc",
     "autoload": {
         "psr-4": {
-            "Core\\": "libs/"
+            "Core\\": "libs/",
+            "App\\": "app/"
         }
     },
-    "require": {}
+    "require": {
+        "symfony/dotenv": "^6.2"
+    }
 }

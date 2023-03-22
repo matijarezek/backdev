@@ -11,7 +11,7 @@ class Boot
         // parser za .env fileove
 
         $envParaser = new Dotenv();
-        $envParaser->loadEnv(ROOT . '/.env');
+        $envParaser->load(ROOT . '/.env');
 
         // spremanje podataka za povezivanje u konstante
         define('DB_DSN', $_ENV['DB_DSN']);

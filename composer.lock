@@ -4,9 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86c8b102107d2b786b7522146e4186e8",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "eb9ed4d538c9d834f64e0b161daa7fde",
+    "packages": [
         {
             "name": "symfony/dotenv",
             "version": "v6.2.7",
@@ -82,6 +81,7 @@
             "time": "2023-02-14T08:44:56+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
