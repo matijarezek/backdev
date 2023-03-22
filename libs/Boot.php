@@ -9,6 +9,7 @@ class Boot
     public function boot()
     {
         // parser za .env fileove
+        
 
         $envParaser = new Dotenv();
         $envParaser->load(ROOT . '/.env');
